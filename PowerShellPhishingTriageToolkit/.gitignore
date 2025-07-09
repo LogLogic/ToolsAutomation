@@ -1,0 +1,21 @@
+# Ignore PowerShell generated files
+*.ps1xml
+*.psd1
+*.psm1
+
+# Ignore output CSV files or any export files
+*.csv
+
+# Ignore logs or temporary files
+*.log
+*.tmp
+*.temp
+
+# Ignore personal config or secrets file if you store API keys locally
+# For example, if you have a file storing your VT API key
+secret*.txt
+*.key
+
+# Ignore IDE/editor folders (if any)
+.vscode/
+.idea/
