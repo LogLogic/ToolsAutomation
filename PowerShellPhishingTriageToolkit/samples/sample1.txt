@@ -1,0 +1,17 @@
+Received: from mail.fakegmail.com (mail.fakegmail.com [185.107.56.233])
+    by mx.google.com with ESMTP id l6si3902097qkb.213.2025.07.08.10.30.12
+    for <victim@example.com>;
+    Tue, 08 Jul 2025 10:30:12 -0500 (CDT)
+Received-SPF: fail (google.com: domain of fake.alert@gmail.com does not designate 185.107.56.233 as permitted sender) client-ip=185.107.56.233;
+Authentication-Results: mx.google.com;
+    dkim=fail header.i=@gmail.com;
+    spf=fail (google.com: domain of fake.alert@gmail.com does not designate 185.107.56.233 as permitted sender) smtp.mailfrom=fake.alert@gmail.com;
+    dmarc=fail (p=REJECT sp=REJECT dis=NONE) header.from=gmail.com
+Message-ID: <FGH4453GJ8K45JH6@mail.fakegmail.com>
+Subject: Urgent - Confirm your account info
+From: Google Account Security <fake.alert@gmail.com>
+To: victim@example.com
+Date: Tue, 08 Jul 2025 10:30:05 -0500
+Content-Type: text/html; charset="UTF-8"
+MIME-Version: 1.0
+X-Mailer: PHPMailer 5.2.22 (https://github.com/PHPMailer/PHPMailer)
