@@ -1,0 +1,19 @@
+Received: from mail.spamdomain.com ([103.145.13.77]) 
+    by smtp.office365.com with ESMTP id 1c2x8l39vgt
+    for <target@company.com>; Tue, 08 Jul 2025 08:12:44 -0500
+Return-Path: <alert@secure-accessupdate.com>
+Message-ID: <993882F30EC8432A90B933EC63AD5@mail.spamdomain.com>
+Subject: Action Required: Your Access Has Been Suspended
+From: IT Helpdesk <alert@secure-accessupdate.com>
+To: target@company.com
+Date: Tue, 08 Jul 2025 08:12:39 -0500
+Content-Type: text/html
+MIME-Version: 1.0
+
+<html>
+<body>
+<p>Dear user,</p>
+<p>To restore your account access, please click the link below:</p>
+<p><a href="http://secure-accessupdate.com/verify">http://secure-accessupdate.com/verify</a></p>
+</body>
+</html>
